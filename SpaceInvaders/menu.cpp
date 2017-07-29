@@ -18,7 +18,9 @@ void inicializa_menu(Menu* menu) {
 	menu->pos_y_cursor = 400;
 
 	menu->bitmap[0] = al_load_bitmap("data/menu.jpg");
+	//testando git
 	menu->bitmap[1] = al_load_bitmap("data/cursor.png");
+	//testando git
 
 	if( menu->bitmap[0] == NULL || menu->bitmap[1] == NULL) {
    	puts( "Erro ao carregar o arquivo menu imagens");
