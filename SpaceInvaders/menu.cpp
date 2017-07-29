@@ -14,7 +14,7 @@
 
 
 void inicializa_menu(Menu* menu) {
-	menu->pos_x_cursor = 100;
+	menu->pos_x_cursor = 101;
 	menu->pos_y_cursor = 400;
 
 	menu->bitmap[0] = al_load_bitmap("data/menu.jpg");
